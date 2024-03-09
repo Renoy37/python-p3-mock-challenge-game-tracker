@@ -86,7 +86,7 @@ class Result:
         self._player = player
         self._game = game
         self._score = score
-        self._game.results.append(self)  # Associate the result with the game
+        self._game.results.append(self) 
         Result.all.append(self)
 
     @property
